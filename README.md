@@ -20,7 +20,7 @@ This script searches for a Nostr user across multiple relays.
 
 #### Usage:
 ```
-python nostr_user_search.py [-h] [-r RELAYS [RELAYS ...]] [-f FILE] [-v] identifier
+python nostr-user-search.py [-h] [-r RELAYS [RELAYS ...]] [-f FILE] [-v] identifier
 ```
 
 ### 2. Mastodon User Search
@@ -35,7 +35,7 @@ This script searches for a Mastodon user across multiple instances.
 
 #### Usage:
 ```
-python mastodon_user_search.py [-h] [-c COUNT] [-m MIN_USERS] [--include-down] [--include-closed] [-v] [-i INSTANCES [INSTANCES ...]] [-f FILE] username
+python mastodon-user-search.py [-h] [-c COUNT] [-m MIN_USERS] [--include-down] [--include-closed] [-v] [-i INSTANCES [INSTANCES ...]] [-f FILE] username
 ```
 
 ## Installation
