@@ -1,4 +1,4 @@
-# OSINT User Discovery
+# Inforensics - OSINT User Discovery
 
 ![Inforensics](https://github.com/Inforensics/.github/blob/main/logo.png)
 
