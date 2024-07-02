@@ -70,4 +70,4 @@ This tool is for educational and research purposes only. Always respect privacy 
 
 ## Contact
 
-For bug reports and feature requests, please open an issue on this repository or contact jascha@inforensics.ai.
+For bug reports and feature requests, please open an issue on this repository
