@@ -89,4 +89,4 @@ Please report any bugs or issues in Github Issues
 
 # COPYRIGHT
 
-This is free software: you are free to change and redistribute it under the terms of MIT [[LICENSE]].
+This is free software: you are free to change and redistribute it under the terms of MIT [LICENSE](LICENSE).
