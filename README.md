@@ -65,11 +65,6 @@ python cache-me-outside.py [-h] [-u URL] [-o] [-j]
    ```
    pip install -r requirements.txt
    ```
-4. Set up environment variables:
-   - For the Mastodon script, you need an API key from instances.social. Create a `.env` file in the project root and add:
-     ```
-     INSTANCES_API_KEY=your_api_key_here
-     ```
 
 ### 5. Domain Intelligence Tool
 This script performs comprehensive intelligence gathering on a specified domain.
@@ -99,7 +94,7 @@ This script performs comprehensive intelligence gathering on a specified domain.
 - DNS zone transfer attempt
 #### Usage:
 ```
-python inforensics_domain_intelligence.py [-h] [--json] [--markdown] [--config CONFIG] domain
+python domain-intelligence-tool.py [-h] [--json] [--markdown] [--config CONFIG] domain
 ```
 
 ## Installation
@@ -109,18 +104,13 @@ python inforensics_domain_intelligence.py [-h] [--json] [--markdown] [--config C
    ```
 2. Navigate to the project directory:
    ```
-   cd osint-user-discovery
+   cd osint-user-discovery/domain-intelligence-tool
    ```
 3. Each script will attempt to install its required dependencies when run. However, you can also install all dependencies manually:
    ```
    pip install -r requirements.txt
    ```
-4. Set up environment variables:
-   - For the Mastodon script, you need an API key from instances.social. Create a `.env` file in the project root and add:
-     ```
-     INSTANCES_API_KEY=your_api_key_here
-     ```
-5. For the Domain Intelligence Tool:
+4. For the Domain Intelligence Tool:
    - Create a `config.json` file in the same directory as the script with the following structure:
      ```json
      {
