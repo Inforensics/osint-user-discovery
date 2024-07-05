@@ -1,0 +1,93 @@
+INFORENSICS-DOMAIN-INTELLIGENCE(1)      User Commands      INFORENSICS-DOMAIN-INTELLIGENCE(1)
+
+NAME
+       inforensics-domain-intelligence - Comprehensive domain intelligence gathering tool
+
+SYNOPSIS
+       inforensics-domain-intelligence [OPTIONS] DOMAIN
+
+DESCRIPTION
+       inforensics-domain-intelligence is a Python script that performs comprehensive
+       intelligence gathering on a specified domain. It collects and analyzes
+       various aspects of domain information, including DNS records, SSL/TLS
+       configuration, WHOIS data, and more.
+
+OPTIONS
+       DOMAIN
+              The target domain to analyze.
+
+       --json
+              Output the results in JSON format.
+
+       --markdown
+              Output the results in Markdown format.
+
+       --config FILE
+              Specify a custom configuration file (default: config.json).
+
+FEATURES
+       The tool performs the following checks and analyses:
+
+       • DNS record retrieval (A, AAAA, CNAME, MX, NS, TXT, SOA, SRV)
+       • SSL/TLS certificate analysis
+       • WHOIS information retrieval
+       • Web technology detection
+       • Subdomain enumeration
+       • SSL/TLS vulnerability checks
+       • HTTP header analysis
+       • Email security configuration (DMARC, SPF)
+       • CAA and TLSA record checks
+       • Reverse DNS lookups
+       • Domain age calculation
+       • SSL certificate chain analysis
+       • Security header checks
+       • Web server version detection
+       • DNSSEC implementation check
+       • IP geolocation
+       • SSL/TLS protocol support check
+       • Domain reputation check (against common blacklists)
+       • Robots.txt and sitemap.xml retrieval
+       • DNS propagation check
+       • HSTS preload status check
+       • Generation of common domain variations
+       • DNS zone transfer attempt
+
+CONFIGURATION
+       The tool uses a configuration file (default: config.json) to set various
+       options, including API keys and output paths. The configuration file
+       should be in JSON format.
+
+EXIT STATUS
+       0      Success
+       1      Various errors (e.g., network issues, missing dependencies)
+
+FILES
+       config.json
+              Default configuration file.
+
+       GeoLite2-City.mmdb
+              Required for IP geolocation. Path specified in config.json.
+
+NOTES
+       This tool performs active reconnaissance on the specified domain. Ensure
+       you have permission to scan the target domain before use.
+
+       Some features (like subdomain enumeration) may be intrusive and should
+       be used with caution.
+
+BUGS
+       Report bugs to: https://github.com/inforensics/domain-intelligence-tool/issues
+
+AUTHOR
+       Written by the Inforensics team.
+
+COPYRIGHT
+       Copyright © 2024 Inforensics. License GPLv3+: GNU GPL version 3 or later
+       <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.
+       There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO
+       whois(1), dig(1), nmap(1)
+
+Inforensics                      July 2024                INFORENSICS-DOMAIN-INTELLIGENCE(1)

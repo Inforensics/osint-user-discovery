@@ -1,0 +1,10 @@
+dnspython==2.3.0
+cryptography==40.0.2
+python-whois==0.8.0
+ipwhois==1.2.0
+requests==2.30.0
+beautifulsoup4==4.12.2
+tqdm==4.65.0
+geoip2==4.7.0
+pyOpenSSL==23.1.1
+idna==3.4

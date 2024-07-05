@@ -1,0 +1,7 @@
+{
+    "api_keys": {
+        "geoip2": "your_geoip2_api_key_here"
+    },
+    "markdown_output_path": "",
+    "geolite2_db_path": "../GeoLite2-City.mmdb"
+}
