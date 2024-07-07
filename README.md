@@ -1,4 +1,4 @@
-# Inforensics - OSINT User Discovery
+# Inforensics - OSINT Discovery Tools
 ![Inforensics](https://github.com/Inforensics/.github/blob/main/logo.png)  
 OSINT Discovery is a set of Python scripts designed to search for users or URLs across different social media platforms and caching services. Currently, it supports searching for users on Nostr and Mastodon networks, searching for cached tweets across various archiving services, and searching for cached versions of any URL. Along with report generator for any domain.
 Created by [inforensics.ai](https://inforensics.ai)
